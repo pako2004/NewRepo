@@ -10,6 +10,8 @@ public class Sede {
     private static int  count = 0;
     private Jefe jefe;
 
+    
+
     public Sede(String ciudad, String direccion, Jefe jefe)
     {
         this.ciudad = ciudad;
@@ -17,5 +19,7 @@ public class Sede {
         this.codigoSede = ++count;
         this.jefe = jefe;
     }
+
+
 
 }

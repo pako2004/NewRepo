@@ -19,6 +19,7 @@ public class Empleado {
         this.apellidos = apellidos;
         this.codUnico = ++count;
         this.codigoSede = codigoSede;
+        
     }
 
 
