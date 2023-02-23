@@ -5,6 +5,7 @@ public class Minibar extends Equipo {
     
 
     private int numBaldas;
+    private double frigorias = 2270;
 
 
 

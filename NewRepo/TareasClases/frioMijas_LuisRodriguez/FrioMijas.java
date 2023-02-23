@@ -1,5 +1,9 @@
 package frioMijas_LuisRodriguez;
 
+import frioMijas_LuisRodriguez.Clases.Empleado;
+import frioMijas_LuisRodriguez.Clases.Jefe;
+import frioMijas_LuisRodriguez.Clases.Sede;
+
 public class FrioMijas {
 
     /*
@@ -10,7 +14,7 @@ public class FrioMijas {
      *  PASSWORD 
      * -------------------------
      * 
-     * TODOS LOS EMPLEADOS TRABAJRAN EN UNA SEDA Y UNA SEDE TENDRA ASOCIADO UN JEFE
+     * TODOS LOS EMPLEADOS TRABAJRAN EN UNA SEDA Y UNA SEDE TENDRA ASOCIADO UN JEFE   X
      * 
      * ---------------------------
      * 

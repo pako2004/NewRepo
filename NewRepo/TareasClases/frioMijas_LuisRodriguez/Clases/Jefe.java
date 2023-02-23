@@ -5,8 +5,8 @@ public class Jefe extends Empleado {
     private String password;
 
 
-    public Jefe(String nombre, int edad, String apellidos, int codigoSede, String password) {
-        super(nombre, edad, apellidos, codigoSede);
+    public Jefe(String nombre, String apellidos, int edad, int codigoSede, String dni) {
+        super(nombre, apellidos, edad, codigoSede, dni);
         this.password = password;
     }
 
