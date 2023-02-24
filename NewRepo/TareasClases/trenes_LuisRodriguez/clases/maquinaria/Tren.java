@@ -35,7 +35,10 @@ public class Tren {
         this.vagones = newArray;
 
         this.contador++;
-        }else{
+        }else if(cargaMax < cargaActual){
+            System.out.println("La carga actual supera a la carga maxima");
+            
+        }else if (contador == 6){
             System.out.println("Este tren ya tiene el limite de vagones");
         }
 

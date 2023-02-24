@@ -6,6 +6,13 @@ import trenes_LuisRodriguez.clases.Empleados.Mecanico;
 import trenes_LuisRodriguez.clases.maquinaria.Locomotora;
 import trenes_LuisRodriguez.clases.maquinaria.Tren;
 
+/*
+ * LEER PROFE, el aviso de que el tren esta lleno nunca sale porque
+ * hay un vagon que no se engancha porque su peso supera al actual,
+ * entonces como no se engancha no supera el limite de 5
+ * por eso no sale, si quiere ver que salga el aviso de limite de vagoens tiene 
+ * que cambiar el vagon de la linea 49 para que si se pueda enganchar
+ */
 public class main {
 
     public static void main(String[] args) {
@@ -39,7 +46,7 @@ public class main {
     tren2.enganchaVagon(50,12,"Madera");
     tren2.enganchaVagon(100,50,"Madera");
     tren2.enganchaVagon(200,50,"Madera");
-    tren2.enganchaVagon(20,50,"Madera");
+    tren2.enganchaVagon(20,50,"Madera");      
     tren2.enganchaVagon(200,50,"Agua"); //Tren lleno, no se puede enganchar otro vagon
     Tren tren3 = new Tren(locomotora3,maquinista3);
     tren3.enganchaVagon(50,60,"Acero");
