@@ -24,7 +24,7 @@ public class FrioMijas {
      * 
      * 
      * ---- SEDE ------
-     * CIUDAD, DIRECCION, cp.CodigoSede(Codigo unico que se va autogenerando)
+     * CIUDAD, DIRECCION, codigo postal , CodigoSede(Codigo unico que se va autogenerando)
      * 
      *  //TENDRAN UN LISTADO DE EQUIPOS  frigoríficos que podrán ser -> minibars, Frigorífico, Arcón y  Cámara.
      * 
