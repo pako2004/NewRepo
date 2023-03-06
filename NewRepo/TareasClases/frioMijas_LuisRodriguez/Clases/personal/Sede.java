@@ -50,13 +50,13 @@ public class Sede {
 
     }
 
-    @Override
+    @Override   //TERMINA ESTO 
     public String toString()
     {
-        String emple = "";
+        
         for (int i = 0; i < empleados.length; i++) {
             
-            emple += this.empleados[i].nombre;
+            System.out.println(this.empleados[i].toString());
         }
 
         return 
