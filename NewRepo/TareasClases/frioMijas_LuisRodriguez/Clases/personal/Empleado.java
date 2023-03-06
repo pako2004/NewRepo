@@ -1,4 +1,4 @@
-package frioMijas_LuisRodriguez.Clases;
+package frioMijas_LuisRodriguez.Clases.personal;
 
 public class Empleado {
 
@@ -25,7 +25,8 @@ public class Empleado {
     }
 
 
-    public Empleado(String nombre2, int edad2, String apellidos2, int codigoSede2) {
+    public Empleado(String nombre2, int edad2, String apellidos2, int codigoSede2) 
+    {
     }
 
 

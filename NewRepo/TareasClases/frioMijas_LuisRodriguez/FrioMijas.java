@@ -1,8 +1,8 @@
 package frioMijas_LuisRodriguez;
 
-import frioMijas_LuisRodriguez.Clases.Empleado;
-import frioMijas_LuisRodriguez.Clases.Jefe;
-import frioMijas_LuisRodriguez.Clases.Sede;
+import frioMijas_LuisRodriguez.Clases.personal.Empleado;
+import frioMijas_LuisRodriguez.Clases.personal.Jefe;
+import frioMijas_LuisRodriguez.Clases.personal.Sede;
 
 public class FrioMijas {
 

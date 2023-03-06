@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    background-image: url(images/bg.png);
+    margin-left: 15%;
+    margin-right: 15%;
+}
+/************ HEADER *******************/
+header{
+    padding-bottom: 5px;
+    background-color: white;
+}
+
+.logo{
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+nav{
+    background-color: black;
+    float: right;
+    width: 420px;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+
+
+ul li{
+    display: inline-block;
+    padding-right: 10px;
+}
+
+ul li:hover{
+
+    background-color: rgb(255, 212, 69);
+
+}
+
+
+ul li a{
+
+    text-decoration: none;
+    color: white;
+}
+
+header section{
+    margin:10px;
+    border: solid 10px rgb(207, 207, 207);
+}
+
+header section img{
+    position:relative ;
+}
+
+
+/********* MAIN *************/
+
+main{
+    float: left;
+    margin-right: 0px;
+    padding: 15px;
+    padding-top: 10px;
+    background-color: white;
+    width: 60%;
+}
+
+main h2{
+    font-size: 30px;
+    border-bottom: 2px dotted;
+    padding-bottom: 5px;
+}
+
+aside{
+    padding-top: 10px;
+    padding-left: 23px;
+    position: inherit;
+    width: 35%;
+    float: right;
+    background-color: white;
+}
+
+aside h2{
+    font-size: 30px;
+    border-bottom: dotted 2px;
+    padding-bottom: 5px;
+}
+
+aside article{
+    padding-bottom: 15px;
+    border-bottom: 2px dotted;
+}
+
+aside article time{
+    background-color: rgb(255, 212, 69);
+}

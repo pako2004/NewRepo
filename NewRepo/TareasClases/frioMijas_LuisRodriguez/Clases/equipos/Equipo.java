@@ -1,4 +1,4 @@
-package frioMijas_LuisRodriguez.Clases;
+package frioMijas_LuisRodriguez.Clases.equipos;
 
 public abstract class Equipo {
 
