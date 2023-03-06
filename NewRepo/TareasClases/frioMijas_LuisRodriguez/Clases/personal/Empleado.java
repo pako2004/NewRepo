@@ -29,6 +29,10 @@ public class Empleado {
     {
     }
 
-
+    @Override
+    public String toString()
+    {
+        return "Empleado "+this.codUnico+": "+this.nombre;
+    }
     
 }
