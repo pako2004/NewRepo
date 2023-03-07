@@ -145,6 +145,8 @@ public class FrioMijas {
         jefe1.generaFuerte();
         System.out.println(jefe1);
 
+        jefe2.generaFuerte();
+        System.out.println(jefe2);
 
 
 
@@ -153,8 +155,10 @@ public class FrioMijas {
          * Empleados de la sede2 con sueldo entre 500 y 1500 
          */
 
+        sede2.mostrarEmpleados(sede2);
+
         /*
-         * HACER *
+         * HACER * ACUERDATE DE HACER LO DE LOS DNI CABESEÑAME
          * Crea 5 equipos frigorificos diferentes y asignalos a la 2º sede y muéstralos a continuación   
          */
 
