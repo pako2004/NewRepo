@@ -8,25 +8,25 @@ public class Empleado {
     protected String apellidos;
     private int codUnico;
     private static int count = 0;
-    public int codigoSede;
+    public int salario;
     private String dni;
 
 
     //Constructor 
-    public Empleado(String nombre,String apellidos,int edad, int codigoSede, String dni)
+    public Empleado(String nombre,String apellidos,int edad, int salario, String dni)
     {
         count++;
         this.nombre = nombre;
         this.edad = edad;
         this.apellidos = apellidos;
         this.codUnico = count;
-        this.codigoSede = codigoSede;
+        this.salario = salario;
         this.dni = dni;
         
     }
 
 
-    public Empleado(String nombre2, int edad2, String apellidos2, int codigoSede2) 
+    public Empleado(String nombre2, int edad2, String apellidos2, int salario2) 
     {
     }
 

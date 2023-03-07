@@ -57,7 +57,21 @@ public class Sede {
         return newArrays;
     }
 
-    @Override   //TERMINA ESTO 
+    public void mostrarEmpleados(Sede sede)
+    {
+        for (int i = 0; i < empleados.length; i++) {
+            
+            if (empleados[i].salario >= 500 && empleados[i].salario <= 1500)
+            {
+                System.out.println(empleados[i].toString());
+            }
+            
+
+        }
+    }
+
+
+    @Override   
     public String toString()
     {
         System.out.println("Sede de: " +this.ciudad);

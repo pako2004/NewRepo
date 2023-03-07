@@ -79,55 +79,80 @@ public class Password {
     public Password generarFuerte()
     {
         String alphabet = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
-        //26 minus
-        //26 mayus
-        //10 nums
+
+        String[] contraa = new String[10]; //Creo un array que va a contener los caracteres de la contraseña 
         String contra = "";
         // COntroladores
         int contMinus = 0;
         int contMayus = 0;
         int contNums = 0; 
+        
+        
+        
 
+        
+        for (int i = 0; i < contraa.length; i++) { // Le pongo un identificador para decir que la posicion del array esta vacia
+            contraa[i] = "?";
+        }
+        
+        for (int pos = 0; pos < contraa.length; pos++) 
+        {   
 
-        //soluciona esta vaina caebseguevo
+            if(contMayus <= 2 ) //Para las mayusculas
+            {     
+                if(contraa[pos].equals("?"))
+                {
+                int random = (int)(Math.random()*25)+27;//Numero aleatorio del string que contiene los caracteres
+                char c = alphabet.charAt(random);
+                contraa[pos] = ""+c;//Agrego el caracter al array
+                contMayus++;
+                   
+                }
+            }
+            if(contMinus <= 1 ){     //Minus
+                if(contraa[pos].equals("?"))
+                {
+                int random = (int)(Math.random()*25)+1;
+                
+                contraa[pos] = ""+alphabet.charAt(random);
+                contMinus++;
+                    
+                }
+             }
+            if(contNums <= 5 ) // NUmeros
+                 {     
+                if(contraa[pos].equals("?"))
+                {
+                    int random = (int)(Math.random()*8)+1;
+                    ;
+                    contraa[pos] = ""+random;
+                    contNums++;
+                   
+                }
+            }
+        } 
+        // Desordeno la contraseña
+        for (int i = contraa.length - 1; i > 0; i--)
+        {   
+            int random = (int)(Math.random()*8)+1;
+                String aux = contraa[i];
+                contraa[i] = contraa[random];
+                contraa[random] = aux;
+                
+        }
+        //Coloco los caracteres del array en un string
+        for (int j = 0; j < contraa.length; j++) {
+            contra += contraa[j];
+        }
+
 
 
         Password passFuerte = new Password(); // Creo la nueva contraseña
-        for (int i = 0; i < 10;) {
-            int random = 0;
-            int tipoChar = (int)(Math.random()*2)+1;    
-
-            //Seleccionador de tipo de caracter
-            
-            if(tipoChar == 1 &&contMinus < 1)
-            {
-                random = (int)(Math.random()*25)+1;
-                contMinus++;
-                i++;
-            }else if(tipoChar == 2 &&contMayus < 2)
-            {
-                random = (int)(Math.random()*25)+27;
-                contMayus++;
-                i++;
-            }if(tipoChar == 3 &&contNums < 5)
-            {
-                random = (int)(Math.random()*9)+53;
-                contNums++;
-                i++;
-            }
-        
-            char c = alphabet.charAt(random);
-            contra += c;
-            
-        }
+       
         passFuerte.longitud = 10;
         passFuerte.contraseña = contra;
         
         return passFuerte;
-        //Primera opcion, Que se repita todo hasta que salga una fuerte 
-        //Segunda Opcion, hacer un random de tres opciones que decida que tipo de caracter va a ser
-        //Cuando se cumpla alguna condicion, se quita la opcion de que vuelva a salir ese mismo tipo de caracter
-
 
     }
 
