@@ -1,7 +1,10 @@
 package frioMijas_LuisRodriguez;
 
+import javax.print.event.PrintJobAttributeEvent;
+
 import frioMijas_LuisRodriguez.Clases.personal.Empleado;
 import frioMijas_LuisRodriguez.Clases.personal.Jefe;
+import frioMijas_LuisRodriguez.Clases.personal.Password;
 import frioMijas_LuisRodriguez.Clases.personal.Sede;
 
 public class FrioMijas {
@@ -114,10 +117,36 @@ public class FrioMijas {
          * Mostrar si la contraseña de los jefes es no Fuerte
          */
 
+
+         if(jefe1.getPassword().esFuerte(jefe1))
+         {  
+             System.out.println(jefe1.getPassword().toString());
+             System.out.println("La contraseña es fuerte");
+         }else{
+             System.out.println(jefe1.getPassword().toString());
+             System.out.println("La contraseña no es fuerte");
+         }
+ 
+
+        if(jefe2.getPassword().esFuerte(jefe2))
+        {  
+            System.out.println(jefe2.getPassword().toString());
+            System.out.println("La contraseña es fuerte");
+        }else{
+            System.out.println(jefe2.getPassword().toString());
+            System.out.println("La contraseña no es fuerte");
+        }
+
+        
          /*
           * HACER
           * Generar contraseña de 10 elementos que sea fuerte para cada uno de los jefes
           */
+        jefe1.generaFuerte();
+        System.out.println(jefe1);
+
+
+
 
          /*
          * HACER *
@@ -138,5 +167,6 @@ public class FrioMijas {
         
         
     }
+    
     
 }

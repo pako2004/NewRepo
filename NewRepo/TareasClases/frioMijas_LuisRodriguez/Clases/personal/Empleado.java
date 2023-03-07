@@ -15,10 +15,11 @@ public class Empleado {
     //Constructor 
     public Empleado(String nombre,String apellidos,int edad, int codigoSede, String dni)
     {
+        count++;
         this.nombre = nombre;
         this.edad = edad;
         this.apellidos = apellidos;
-        this.codUnico = ++count;
+        this.codUnico = count;
         this.codigoSede = codigoSede;
         this.dni = dni;
         
