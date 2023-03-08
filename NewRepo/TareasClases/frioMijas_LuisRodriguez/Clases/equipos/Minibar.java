@@ -5,28 +5,29 @@ public class Minibar extends Equipo {
     
 
     private int numBaldas;
-    private double frigorias = 2270;
+    
 
 
 
-    public Minibar(double alto, double ancho, double profundidad, int numBaldas, String marca) {
-        super(alto, ancho, profundidad,marca);
+    public Minibar(double alto, double ancho, double profundidad, int numBaldas, String marca, double frigorias) {
+        super(alto, ancho, profundidad,marca, frigorias);
         this.numBaldas = numBaldas;
-        //TODO Auto-generated constructor stub
+        this.consumo = consumo();
     }
 
 
     @Override
-    public double consumo()
+    double consumo()
     {
-
-
-        throw new UnsupportedOperationException("Unimplemented method 'consumo'");
+        this.consumo = this.frigorias * 2;
+        
+        return this.consumo;
     }
+   
     @Override
-    public double frigorias() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'frigorias'");
+    public String toString() {
+        
+        return super.toString() + " | Baldas: "+this.numBaldas+" | Consumo: "+this.consumo;
     }
 
 

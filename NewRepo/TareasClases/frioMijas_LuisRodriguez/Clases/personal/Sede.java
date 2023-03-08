@@ -2,6 +2,9 @@ package frioMijas_LuisRodriguez.Clases.personal;
 
 import java.util.Arrays;
 
+import frioMijas_LuisRodriguez.Clases.equipos.Equipo;
+import frioMijas_LuisRodriguez.Clases.equipos.Frigorifico;
+
 public class Sede {
 
     //Atributos 
@@ -12,9 +15,7 @@ public class Sede {
     private static int  count = 0;
     private Jefe jefe;
     private Empleado[] empleados = new Empleado[0];
-    //Hacer array de los frigorificos
-
-    
+    private Equipo[] frigorificos = new Equipo[0];
 
     public Sede(String ciudad, String direccion,int codigoSede, Jefe jefe)
     {
@@ -41,9 +42,14 @@ public class Sede {
         this.empleados = addArray(empleado);
     }
 
+    public void addFrigorificos(Equipo frigori)
+    {
+        this.frigorificos = addArray(frigori);
+    }
 
 
-    public Empleado[]  addArray(Empleado empleado)
+
+    private Empleado[]  addArray(Empleado empleado) //Agregar empleados al array
     {
 
         Empleado[] newArrays = Arrays.copyOf(this.empleados, this.empleados.length+1);
@@ -57,6 +63,20 @@ public class Sede {
         return newArrays;
     }
 
+    private Equipo[]  addArray(Equipo frigo) // Agregar frigorificos al array de equipos
+    {
+
+        Equipo[] newArrays = Arrays.copyOf(this.frigorificos, this.frigorificos.length+1);
+
+        for (int i = 0; i < this.frigorificos.length; i++) {
+                newArrays[i] = this.frigorificos[i];
+
+        }
+        newArrays[newArrays.length-1] = frigo;
+
+        return newArrays;
+    }
+
     public void mostrarEmpleados(Sede sede)
     {
         for (int i = 0; i < empleados.length; i++) {
@@ -66,6 +86,15 @@ public class Sede {
                 System.out.println(empleados[i].toString());
             }
             
+
+        }
+    }
+
+    public void mostrarFrigorificos(Sede sede)
+    {
+        for (int i = 0; i < frigorificos.length; i++) {
+            
+            System.out.println(frigorificos[i]);
 
         }
     }

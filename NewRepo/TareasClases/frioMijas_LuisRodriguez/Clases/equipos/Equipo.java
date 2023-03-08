@@ -7,17 +7,26 @@ public abstract class Equipo {
     protected double ancho;
     protected double profundidad;
     protected String marca;
-    public abstract double frigorias();
-    public abstract double consumo();
+    protected double frigorias;
+    abstract double consumo();
+    protected double consumo;
 
 
-
-    public Equipo(double alto, double ancho, double profundidad, String marca)
+    public Equipo(double alto, double ancho, double profundidad, String marca, double frigorias)
     {
         this.alto = alto;
         this.ancho = ancho;
         this.profundidad = profundidad;
         this.marca = marca;
+        this.frigorias = frigorias;
+    }
+
+    @Override
+    public String toString()
+    {
+
+        return "Alto: " + this.alto + " | Ancho: "+this.ancho+" | Profundidad: " + this.profundidad
+        +" | Marca: " + this.marca +" | Frigorias: "+this.frigorias;
     }
 
 
