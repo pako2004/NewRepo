@@ -2,8 +2,10 @@ package frioMijas_LuisRodriguez.Clases.personal;
 
 import java.util.Arrays;
 
+import javax.print.attribute.standard.RequestingUserName;
+
 import frioMijas_LuisRodriguez.Clases.equipos.Equipo;
-import frioMijas_LuisRodriguez.Clases.equipos.Frigorifico;
+
 
 public class Sede {
 
@@ -30,7 +32,24 @@ public class Sede {
         this.ciudad = ciudad;
         this.direccion = direccion;
         this.codigoSede = codigoSede;
+
     }
+
+    boolean repetido(String dni)
+    {
+        boolean repedito = false;
+
+        for (int i = 0; i < empleados.length; i++) {
+            
+            if (dni.equals((String)empleados[i].getDni()))
+            {
+                repedito = true;
+            }
+        }
+
+        return repedito;
+    }
+
 
     public void  setJefe(Jefe jefe)
     {
@@ -38,9 +57,15 @@ public class Sede {
     }
 
     public void addEmpleado(Empleado empleado)
-    {
+    {   
+        if (repetido(empleado.getDni()))
+        {
+            System.out.println("DNI repetido");
+        }else
+        {
         this.empleados = addArray(empleado);
-    }
+        }
+    }   
 
     public void addFrigorificos(Equipo frigori)
     {

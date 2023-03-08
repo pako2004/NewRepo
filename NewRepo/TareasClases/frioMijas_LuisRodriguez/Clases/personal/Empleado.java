@@ -30,6 +30,11 @@ public class Empleado {
     {
     }
 
+    public String getDni() {
+        return dni;
+    }
+
+
     @Override
     public String toString()
     {
