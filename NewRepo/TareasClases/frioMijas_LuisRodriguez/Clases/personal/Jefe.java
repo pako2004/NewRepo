@@ -46,9 +46,8 @@ public class Jefe extends Empleado {
     }
 
 
-
     public Password getPassword() {
-        return password;
+        return this.password;
     }
     
     

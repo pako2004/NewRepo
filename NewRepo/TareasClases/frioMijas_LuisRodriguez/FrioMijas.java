@@ -2,6 +2,11 @@ package frioMijas_LuisRodriguez;
 
 import javax.print.event.PrintJobAttributeEvent;
 
+import frioMijas_LuisRodriguez.Clases.equipos.Arcon;
+import frioMijas_LuisRodriguez.Clases.equipos.Camara;
+import frioMijas_LuisRodriguez.Clases.equipos.Equipo;
+import frioMijas_LuisRodriguez.Clases.equipos.Frigorifico;
+import frioMijas_LuisRodriguez.Clases.equipos.Minibar;
 import frioMijas_LuisRodriguez.Clases.personal.Empleado;
 import frioMijas_LuisRodriguez.Clases.personal.Jefe;
 import frioMijas_LuisRodriguez.Clases.personal.Password;
@@ -27,7 +32,7 @@ public class FrioMijas {
      * 
      * 
      * ---- SEDE ------
-     * CIUDAD, DIRECCION, codigo postal , CodigoSede(Codigo unico que se va autogenerando)
+     * CIUDAD, DIRECCION, codigo postal , CodigoSede(Codigo unico que se va autogenerando)X
      * 
      *  //TENDRAN UN LISTADO DE EQUIPOS  frigoríficos que podrán ser -> minibars, Frigorífico, Arcón y  Cámara.
      * 
@@ -161,6 +166,22 @@ public class FrioMijas {
          * HACER * ACUERDATE DE HACER LO DE LOS DNI CABESEÑAME
          * Crea 5 equipos frigorificos diferentes y asignalos a la 2º sede y muéstralos a continuación   
          */
+        
+        Minibar miniBar = new Minibar(2, 2, 1, 3, "LG", 50);
+        Frigorifico frigo = new Frigorifico(2, 1.5, 2, "Samsung", 70);
+        Arcon arcon = new Arcon(4, 3, 3, "StarkIndustries", 200, "Abierta");
+        Camara camara = new Camara(3, 4, 5, "FrioMijas", 600, -10);
+        Frigorifico alfrigo = new Frigorifico(4, 5, 10, "ACME", 5000);
+
+        sede2.addFrigorificos(miniBar);
+        sede2.addFrigorificos(frigo);
+        sede2.addFrigorificos(arcon);
+        sede2.addFrigorificos(camara);
+        sede2.addFrigorificos(alfrigo);
+
+        sede2.mostrarFrigorificos(sede2);
+
+
 
          
 
