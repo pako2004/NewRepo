@@ -1,9 +1,13 @@
 body{
     margin: 0;
     background-image: url(images/bg.png);
+}
+
+.container{
     margin-left: 15%;
     margin-right: 15%;
 }
+
 /************ HEADER *******************/
 header{
     width: 100%;
@@ -53,32 +57,38 @@ ul li a{
 }
 
 header section{
+    position: relative;
     margin:10px;
     border: solid 10px rgb(207, 207, 207);
 }
 
 header section div{
-    padding: 4% 0px 0px 4%;
+
     position:absolute;
+    top: 20%;
+    left: 7%;
     height: fit-content;
-    width:25%;
-    text-align: center;
+    width:30%;
+    text-align: left;
     font-size: 140%;
 }
 
 header section div h1{
     font-size:170%;
-    border-bottom: 1px dotted;
+    border-bottom: 1px dotted ;
+}
+
+header section div p{
+    text-align: left;
 }
 
 
-
 header section div small{
-        
+    
     font-size: 90%;
     background-color: rgb(44, 44, 44);
     color: white;
-    padding: 6px 20px 6px 20px;
+    padding: 12px 40px 12px 40px;
 
 }
 header section img{
@@ -111,6 +121,16 @@ main h2{
     border-bottom: 2px dotted;
     padding-bottom: 5px;
 }
+
+main section article  {
+
+    display:inline;
+
+}
+
+
+
+
 /******* ASIDE ******/
 aside{
     padding-top: 10px;
@@ -128,6 +148,7 @@ aside h2{
 }
 
 aside article{
+    position: relative;
     padding-bottom: 15px;
     border-bottom: 2px dotted;
     display: inline-block;
@@ -138,15 +159,55 @@ aside article{
 aside article h3{
     float: left;
     font-weight: 600;
-    width: 35%;
-    margin-right: 35%;
+    width: 50%;
+    
 }
 
 aside article time{
+    
     
     background-color: rgb(255, 212, 69);
     margin-top: 22px;
     margin-bottom: 18px;
     float: left;
+    margin-right: 10%;
+    padding: 5px;
+    font-weight: bolder;
+}
+
+aside article p{
+    font-size: 15px;
+    padding-top: 50px;
+}
+
+aside article a{
     
+    position: absolute;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    right: 17%;
+    top: 66.5%;
+
+}
+
+aside img{
+    border: 1px solid gray ;
+    width: 100%;
+}
+
+/***** FOOTER *****/
+
+footer{
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}   
+
+footer small{
+    padding-top: 10px;
+    padding-right: 100px ;
 }
