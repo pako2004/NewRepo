@@ -26,7 +26,8 @@ nav{
     
     float: right;
     margin-top: 4%;
-    margin-right: 1.5%;
+    margin-right: 0.1%;
+    width: 50%;
 }
 
 ul{
@@ -34,11 +35,12 @@ ul{
     background-color: black;
     padding-left: 10px;
     padding-right: 10px;
+    width: 90%;
 }
 ul li{
     
     display: inline-block;
-    
+
 }
 
 ul li a:hover{
@@ -68,27 +70,42 @@ header section div{
     top: 20%;
     left: 7%;
     height: fit-content;
-    width:30%;
+    width:33%;
     text-align: left;
-    font-size: 140%;
+    font-size: 1vw;
 }
 
 header section div h1{
-    font-size:170%;
+    font-weight: 500;
+    font-size:2.1vw;
     border-bottom: 1px dotted ;
+    margin-bottom: 0px;
 }
 
 header section div p{
+    margin-top: 10px;
     text-align: left;
+    font-size: 1.2vw;
 }
 
 
 header section div small{
     
-    font-size: 90%;
+    font-size: 1vw;
     background-color: rgb(44, 44, 44);
-    color: white;
+
     padding: 12px 40px 12px 40px;
+
+}
+header section div small a{
+    color: white;
+    font-weight: none;
+    text-decoration:none ;
+}
+header section div small :hover {
+
+    background-color: rgb(255, 212, 69);
+
 
 }
 header section img{
@@ -112,8 +129,8 @@ main{
 
     padding-left: 15px;
     padding-right: 50px;
-    float: left;
     width:60%;
+    
 }
 
 main h2{
@@ -122,10 +139,42 @@ main h2{
     padding-bottom: 5px;
 }
 
-main section article  {
+.izquierda img{
+    
+    padding: 10px;
+    border: 1px solid rgb(226, 222, 222) ;
+    padding-bottom: 15px;
+}
 
-    display:inline;
+.izquierda article{
+    display: inline-block;
+    width: 70%;
+    margin-bottom: 10px;
 
+}
+
+.izquierda article h3{
+    margin: 5px;
+}
+.izquierda article p{
+    margin: 5px;
+    
+}
+.izquierda article a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.about{
+    display: inline-block;
+}
+
+.about article{
+    width: 65%;
+}
+
+.about article p a{
+    padding-left: 5px;
 }
 
 
@@ -144,7 +193,7 @@ aside{
 aside h2{
     font-size: 30px;
     border-bottom: dotted 2px;
-    padding-bottom: 5px;
+    margin-bottom: 0px;
 }
 
 aside article{
@@ -157,42 +206,38 @@ aside article{
 }
 
 aside article h3{
-    float: left;
+    
     font-weight: 600;
-    width: 50%;
+    width: 100%;
+    
     
 }
 
 aside article time{
     
-    
     background-color: rgb(255, 212, 69);
-    margin-top: 22px;
-    margin-bottom: 18px;
-    float: left;
-    margin-right: 10%;
+    margin-left: 10px;
     padding: 5px;
-    font-weight: bolder;
 }
 
 aside article p{
-    font-size: 15px;
-    padding-top: 50px;
+    font-size: 1.1vw;
+    
 }
 
 aside article a{
     
-    position: absolute;
+
     font-weight: bold;
     text-decoration: none;
     color: black;
-    right: 17%;
-    top: 66.5%;
+
 
 }
 
 aside img{
-    border: 1px solid gray ;
+    margin-top: 15px;
+    border: 1px solid rgb(226, 222, 222) ;
     width: 100%;
 }
 
@@ -209,5 +254,7 @@ footer{
 
 footer small{
     padding-top: 10px;
-    padding-right: 100px ;
+    margin-left: 10%;
+    margin-right: 10%;
+    
 }
