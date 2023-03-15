@@ -104,7 +104,7 @@ header section div p{
     background-color:rgb(44, 44, 44);
     border: none;
     text-align: center;
-    padding: 12px 25px 12px 25px;
+    padding: 5px 25px 5px 25px;
     margin: 0px;
 }
 
@@ -170,7 +170,9 @@ main h2{
 }
 
 .izquierda article h3{
+    font-size: 1.1vw;
     margin: 5px;
+    font-weight: 500;
 }
 .izquierda article p{
     margin: 5px;
@@ -223,7 +225,8 @@ aside article{
 
 aside article h3{
     
-    font-weight: 600;
+    font-size: 1.2vw;
+    font-weight: 400;
     width: 100%;
     
     
@@ -237,7 +240,7 @@ aside article time{
 }
 
 aside article p{
-    font-size: 1.1vw;
+    font-size: 1.0vw;
     
 }
 
@@ -270,7 +273,7 @@ footer{
 
 footer small{
     padding-top: 10px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 12%;
+    margin-right: 15%;
     
 }
