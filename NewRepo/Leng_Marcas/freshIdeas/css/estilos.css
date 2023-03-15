@@ -108,10 +108,12 @@ header section div p{
     margin: 0px;
 }
 
+/* Read more about our fresh ideas cambio de color 
 header section div:hover > .boton{
     background-color: rgb(255, 212, 69);
 
 }
+*/
 
 header section div  a{
     display: block;
