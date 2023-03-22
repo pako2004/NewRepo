@@ -1,9 +1,6 @@
 package frioMijas_LuisRodriguez.Clases.personal;
 
 import java.util.Arrays;
-
-import javax.print.attribute.standard.RequestingUserName;
-
 import frioMijas_LuisRodriguez.Clases.equipos.Equipo;
 
 

@@ -4,7 +4,7 @@ import java.lang.reflect.Array;
 import java.security.cert.PKIXReason;
 import java.util.Arrays;
 
-public class JugadoresSpain {
+public class JugadoresSpain { 
     public static void main(String[] args) {
         
         Jugador j1 = new Jugador("Luis Rodriguez", "Pako");
@@ -21,8 +21,7 @@ public class JugadoresSpain {
         jugadoresSpain[4] = j5;
 
         JugadorComparator comparator = new JugadorComparator();
-
-        
+        j1.setNumeroFaltas(10);
         Arrays.sort(jugadoresSpain, comparator);
 
         System.out.println(Arrays.toString(jugadoresSpain));

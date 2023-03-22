@@ -13,6 +13,10 @@ public class Cliente {
         this.dinero = dinero;
     }
 
+    public Cliente ()
+    {
+        
+    }
     public String getNombre() {
         return nombre;
     }

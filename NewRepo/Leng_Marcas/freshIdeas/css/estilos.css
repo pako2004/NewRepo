@@ -23,6 +23,8 @@ header{
     margin-bottom: 1.8%;
 }
 
+
+/******** NAV ******/
 nav{
     
     float: right;
@@ -65,7 +67,14 @@ ul li a{
     font-size: 1.5vw;
 }
 
+@media (max-width: 1135px) {
 
+
+    ul li{
+        width: 15%;
+    }
+
+}
 
 header section{
     position: relative;
@@ -73,7 +82,7 @@ header section{
     border: solid 10px rgb(207, 207, 207);
 }
 
-header section div{
+header section article{
 
     position:absolute;
     top: 20%;
@@ -84,7 +93,7 @@ header section div{
     font-size: 1vw;
 }
 
-header section div h1{
+header section article h1{
     width: 85%;
     font-weight: 500;
     font-size:2.1vw;
@@ -92,13 +101,13 @@ header section div h1{
     margin-bottom: 0px;
 }
 
-header section div p{
+header section article p{
     margin-top: 10px;
     text-align: left;
     font-size: 1.2vw;
 }
 
-.boton  {
+.caja  {
     height: fit-content;
     width: 70%;
     background-color:rgb(44, 44, 44);
@@ -108,14 +117,8 @@ header section div p{
     margin: 0px;
 }
 
-/* Read more about our fresh ideas cambio de color 
-header section div:hover > .boton{
-    background-color: rgb(255, 212, 69);
 
-}
-*/
-
-header section div  a{
+.caja  a{
     display: block;
     width:90%;
     font-size: 1.1vw;
