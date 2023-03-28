@@ -1,6 +1,6 @@
 package tareasInterfaz.furbo;
 
-public class Jugador implements Comparable{
+public class Jugador implements Comparable, Jugar_I {
     
     private String NombreCompleto;
     private String Apodo;
@@ -33,6 +33,47 @@ public class Jugador implements Comparable{
 
     }
 
+    @Override
+    public int compareTo(Object o) {
+        Jugador jug = (Jugador)o;
+        return this.Num_Licencia - jug.Num_Licencia;
+    }
+
+    
+    @Override
+    public void HacerGol(Jugador jugador) {
+      System.out.println(this.NombreCompleto+" ha metido gol");
+      System.out.println("Goles de "+this.NombreCompleto+": "+this.numeroGoles);
+      this.numeroGoles++;
+    }
+
+    @Override
+    public void cometerFalta(Jugador jugador) {
+     System.out.println(this.NombreCompleto+" ha hecho falta");
+     System.out.println("Numero de faltas de "+ this.NombreCompleto+": "+this.numeroFaltas);
+     this.numeroFaltas++;
+    }
+
+ 
+
+
+
+ //*********************************************************************************************** */
+    public int getNum_Licencia() {
+        return Num_Licencia;
+    }
+
+    public void setNombreCompleto(String nombreCompleto) {
+        NombreCompleto = nombreCompleto;
+    }
+
+public void setApodo(String apodo) {
+        Apodo = apodo;
+    }
+
+    public void setNum_Licencia(int num_Licencia) {
+        Num_Licencia = num_Licencia;
+    }
 
     @Override
     public String toString() {
@@ -40,24 +81,6 @@ public class Jugador implements Comparable{
         return this.NombreCompleto +" ("+this.Apodo+")- Goles: "+this.numeroGoles+" - Faltas: "+numeroFaltas;
     }
 
-    @Override
-    public int compareTo(Object o) {
-
-        Jugador j = (Jugador)o;
-        int resultado = 0;
-
-
-        if (this.Num_Licencia > j.Num_Licencia)
-        {
-            resultado = 1;
-        }else if(this.Num_Licencia < j.Num_Licencia)
-        {
-            resultado = -1;
-        }
-
-        return resultado;
-
-    }
 
     public String getNombreCompleto() {
         return NombreCompleto;
@@ -82,7 +105,7 @@ public class Jugador implements Comparable{
     public void setNumeroFaltas(int numeroFaltas) {
         this.numeroFaltas = numeroFaltas;
     }
-    
+
 
 
 }

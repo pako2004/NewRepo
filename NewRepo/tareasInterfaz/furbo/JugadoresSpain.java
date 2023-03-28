@@ -1,9 +1,5 @@
 package tareasInterfaz.furbo;
-
-import java.lang.reflect.Array;
-import java.security.cert.PKIXReason;
 import java.util.Arrays;
-
 public class JugadoresSpain { 
     public static void main(String[] args) {
         
@@ -14,20 +10,60 @@ public class JugadoresSpain {
         Jugador j5 = new Jugador("Mariano Pacheco", "El propio");
 
         Jugador[] jugadoresSpain = new Jugador[5];
-        jugadoresSpain[0] = j1;
-        jugadoresSpain[1] = j2;
+        jugadoresSpain[0] = j4;
+        jugadoresSpain[1] = j5;
         jugadoresSpain[2] = j3;
-        jugadoresSpain[3] = j4;
-        jugadoresSpain[4] = j5;
+        jugadoresSpain[3] = j2;
+        jugadoresSpain[4] = j1;
 
-        JugadorComparator comparator = new JugadorComparator();
-        j1.setNumeroFaltas(10);
-        Arrays.sort(jugadoresSpain, comparator);
+        
+        //Ordenar por licencia
 
-        System.out.println(Arrays.toString(jugadoresSpain));
+        
+        Arrays.sort(jugadoresSpain);
+        System.out.println("******************************************");
+        System.out.println("Ordenamos por licencia: "+Arrays.toString(jugadoresSpain));
 
 
+        //Ordenar por numero de goles
+        generadorGoles(jugadoresSpain);
+        Arrays.sort(jugadoresSpain, new JugadorGolesComparator());
+        
+        System.out.println("********************");
+        System.out.println("Ordenados por numero goles: " + Arrays.toString(jugadoresSpain));
 
+        //Ordenar por numero de faltas
+        generadorFaltas(jugadoresSpain);
+        Arrays.sort(jugadoresSpain, new JugadorFaltasComparator());
+        System.out.println("*****************");
+        System.out.println("Ordenamos por numero de faltas: "+ Arrays.toString(jugadoresSpain));
+
+        System.out.println("********* EXTRA ***********");
+        
+        
+        Jugador[] newTeam = UtilesJugadores.generarEquipo(5);
+
+        System.out.println(Arrays.toString(newTeam));
+       
 
     }
+
+    static void generadorFaltas(Jugador[] jugadores)
+    {
+        for (int index = 0; index < jugadores.length; index++) {
+            int random = (int)(Math.random()*9)+1;
+            jugadores[index].setNumeroFaltas(random);
+
+        }
+    }
+
+    static void generadorGoles(Jugador[] jugadores)
+    {
+        for (int index = 0; index < jugadores.length; index++) {
+            int random = (int)(Math.random()*30)+1;
+            jugadores[index].setNumeroGoles(random);
+
+        }
+    }
+
 }
