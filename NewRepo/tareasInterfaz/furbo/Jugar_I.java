@@ -3,8 +3,8 @@ package tareasInterfaz.furbo;
 public interface Jugar_I {
     
 
-    public void HacerGol();
-    public void cometerFalta();
+    public void HacerGol(Jugador jugador);
+    public void cometerFalta(Jugador jugador);
 
 
 
