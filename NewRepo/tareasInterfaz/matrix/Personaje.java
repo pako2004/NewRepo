@@ -40,14 +40,6 @@ public abstract class Personaje {
             return edad;
         }
     
-        public double getProbabilidadMorir() {
-            return probabilidadMorir;
-        }
-    
-        public void setProbabilidadMorir(double probabilidadMorir) {
-            this.probabilidadMorir = probabilidadMorir;
-        }
-    
         public abstract void mostrarInformacion();
     }
 

@@ -46,6 +46,10 @@ public class PersonaGenerica extends Personaje {
             System.out.println("Smith[id=" + getId()  + ", nombre=" + getNombre() + ", ciudadNacimiento=" + getCiudadNacimiento() +
             ", fechaCreacion=" + getFechaHoraCreacion() + ", edad=" + getEdad() + ", probabilidadMorir=" + getProbabilidadMorir());
         }
+
+        public int getProbabilidadMorir() {
+            return probabilidadMorir;
+        }
     
 
 }
