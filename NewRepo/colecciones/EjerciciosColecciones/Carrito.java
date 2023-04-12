@@ -6,10 +6,12 @@ import java.util.HashSet;
 public class Carrito {
     
     
-    HashSet<Elemento> compra = new HashSet();
-
+    //HashSet<Elemento> compra = new HashSet();
+    ArrayList<Elemento> compra;
     public Carrito()
-    {}
+    {
+         compra = new ArrayList<>();
+    }
 
     public void agrega(Elemento elemento)
     {           
@@ -18,7 +20,13 @@ public class Carrito {
         {
             this.compra.add(elemento);
         }else{
-              this.compra.  
+            for (Elemento elem : compra) {
+                
+                if(elem.equals(elemento))
+                {
+                    elemento.setCantidad(elem.getCantidad()+elemento.getCantidad());
+                }
+            }
         }
 
         

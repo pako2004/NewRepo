@@ -34,5 +34,13 @@ public class Elemento {
         this.cantidad = cantidad;
     }   
 
+    @Override
+    public boolean equals(Object obj) {
+    
+        // 2 elementos son iguales si su nombres son iguales
+        Elemento l = (Elemento) obj;
+
+        return this.nombre.equals(l.nombre);
+    }
 
 }
