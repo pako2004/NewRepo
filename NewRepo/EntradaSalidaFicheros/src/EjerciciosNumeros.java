@@ -3,6 +3,8 @@ import java.io.File;
 import java.io.FileReader;
 import java.util.Scanner;
 
+import clases.LogPako;
+
 public class EjerciciosNumeros {
 
 
@@ -22,11 +24,11 @@ public class EjerciciosNumeros {
 
                 sc = new Scanner(bf);
                 
-
+            
             }
         }catch(Exception ex)
         {
-
+            System.out.println(ex.getMessage());
         }
 
 
