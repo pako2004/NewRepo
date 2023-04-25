@@ -25,7 +25,7 @@ public class PersonaGenerica extends Personaje {
         private static final String[] ciudades = {"Madrid", "New York", "Pekin", "Leganés", "Londres", "Paris"};
         private static final String[] nombres = {"Juan", "Pedro", "María", "Ana", "Luis", "Carlos", "Sofía", "Lucía", "Elena", "Miguel"};
         
-        public static Collection<PersonaGenerica> crearPersonas(int cantidad) {
+        /*public static Collection<PersonaGenerica> FactoriaPersonas(int cantidad) {
           
             Collection<PersonaGenerica> personas = new ArrayList<>();
           
@@ -40,7 +40,7 @@ public class PersonaGenerica extends Personaje {
             }
             
             return personas;
-        }
+        }*/
 
         public void mostrarInformacion() {
             System.out.println("Smith[id=" + getId()  + ", nombre=" + getNombre() + ", ciudadNacimiento=" + getCiudadNacimiento() +
