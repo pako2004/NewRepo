@@ -1,4 +1,8 @@
-public class Municipio {
+package Clases;
+import java.util.Collections;
+import java.util.Comparator;
+
+public class Municipio implements Comparator<Municipio>{
     
     //Atributos
     private String nombre;
@@ -20,4 +24,26 @@ public class Municipio {
 
         return this.nombre == muni.nombre && this.año == muni.año;
     }
+
+    @Override
+    public String toString() {
+        
+        return this.nombre+" "+this.año;
+    }
+
+    @Override
+    public int compare(Municipio arg0, Municipio arg1) {
+
+        return arg0.nombre.compareTo(arg1.nombre);
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public int getAño() {
+        return año;
+    }
+
+   
 }
