@@ -59,7 +59,6 @@ public class Carrito {
             cadena+= "\n"+elemento.toString();
         }
 
-
         return cadena;
     }
 

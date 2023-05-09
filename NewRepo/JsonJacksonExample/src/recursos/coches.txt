@@ -1,0 +1,28 @@
+[
+  {
+    "marca": "Toyota",
+    "modelo": "Corolla",
+    "año": 2021,
+    "precio": 20000
+  },
+  {
+    "marca": "Honda",
+    "modelo": "Civic",
+    "año": 2022,
+    "precio": 22000
+  },
+  {
+    "marca": "Ford",
+    "modelo": "Mustang",
+    "año": 2020,
+    "precio": 35000
+  },
+  {
+    "marca": "Chevrolet",
+    "modelo": "Camaro",
+    "año": 2023,
+    "precio": 40000
+  }
+];
+
+console.log(JSON.stringify(coches));

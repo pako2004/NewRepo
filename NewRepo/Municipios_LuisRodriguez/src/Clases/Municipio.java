@@ -1,17 +1,16 @@
 package Clases;
-import java.util.Collections;
+
 import java.util.Comparator;
 
-public class Municipio implements Comparator<Municipio>{
-    
-    //Atributos
+public class Municipio implements Comparator<Municipio> {
+
+    // Atributos
     private String nombre;
     private int año;
     private int poblacion;
     private int codigoPostal;
 
-    public Municipio(String nombre, int codigoPostal, int año, int poblacion)
-    {
+    public Municipio(String nombre, int codigoPostal, int año, int poblacion) {
         this.nombre = nombre;
         this.codigoPostal = codigoPostal;
         this.año = año;
@@ -20,7 +19,7 @@ public class Municipio implements Comparator<Municipio>{
 
     @Override
     public boolean equals(Object obj) {
-        Municipio muni = (Municipio)obj;
+        Municipio muni = (Municipio) obj;
 
         return this.nombre == muni.nombre && this.año == muni.año;
     }
@@ -28,7 +27,7 @@ public class Municipio implements Comparator<Municipio>{
     @Override
     public String toString() {
         
-        return this.nombre+" "+this.año;
+        return "Info del municipio: "+this.codigoPostal+" "+this.nombre+" | Año: "+this.año+" | Poblacion"+this.poblacion;
     }
 
     @Override
@@ -45,5 +44,8 @@ public class Municipio implements Comparator<Municipio>{
         return año;
     }
 
-   
+    public int getPoblacion() {
+        return poblacion;
+    }
+
 }

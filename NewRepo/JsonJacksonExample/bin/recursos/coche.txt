@@ -1,0 +1,6 @@
+{
+    "marca": "Toyota",
+    "modelo": "Corolla",
+    "año": 2021,
+    "precio": 20000
+  },
