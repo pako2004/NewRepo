@@ -62,7 +62,7 @@ public class Pokedex {
     }
 
 
-    public List<Pokemon> buscarDebilidades(String tipo)
+    public List<Pokemon> buscarDebilidades(List<String> tipo)
     {
 
         List<Pokemon> lista = new ArrayList<>();
@@ -76,15 +76,20 @@ public class Pokedex {
             for (int index = 0; index < pokemonActual.getWeaknesses().size(); index++) 
             { 
                 //Si consigue el pokemon tiene ese tipo lo agrega a la lista
-                if  (pokemonActual.getWeaknesses().get(index).equals(tipo))
+                for (int j = 0; j < tipo.size(); j++) 
                 {
-                    lista.add(pokemonActual);
+                    
+                    if  (pokemonActual.getWeaknesses().get(index).equals(tipo.get(j)))
+                    
+                       if  (!lista.contains(pokemonActual))
+                       {
+                           lista.add(pokemonActual);
+                       }   
                 }
+                    
 
             }
         }
-
-
 
         return lista;
     }

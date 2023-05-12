@@ -1,0 +1,115 @@
+======== ULTIMOS 5 POKEMONS ========
+[
+Mew [Psychic] 0.41 m Debilidades: [Bug, Ghost, Dark] Evoluciones[null], 
+Mewtwo [Psychic] 2.01 m Debilidades: [Bug, Ghost, Dark] Evoluciones[null], 
+Dragonite [Dragon, Flying] 2.21 m Debilidades: [Ice, Rock, Dragon, Fairy] Evoluciones[null], 
+Dragonair [Dragon] 3.99 m Debilidades: [Ice, Dragon, Fairy] Evoluciones[[149 Dragonite]], 
+Dratini [Dragon] 1.80 m Debilidades: [Ice, Dragon, Fairy] Evoluciones[[148 Dragonair, 149 Dragonite]]]
+ =================== BUSCAR POR NOMBRE =========
+
+Pikachu [Electric] 0.41 m Debilidades: [Ground] Evoluciones[[026 Raichu]]
+========== BUSCAR EVOLUCION ===========
+Las evoluciones de Charmander
+[
+Charmeleon [Fire] 1.09 m Debilidades: [Water, Ground, Rock] Evoluciones[[006 Charizard]], 
+Charizard [Fire, Flying] 1.70 m Debilidades: [Water, Electric, Rock] Evoluciones[null]]========= BUSCAR TIPO =============[
+Charmander [Fire] 0.61 m Debilidades: [Water, Ground, Rock] Evoluciones[[005 Charmeleon, 006 Charizard]], 
+Charmeleon [Fire] 1.09 m Debilidades: [Water, Ground, Rock] Evoluciones[[006 Charizard]], 
+Charizard [Fire, Flying] 1.70 m Debilidades: [Water, Electric, Rock] Evoluciones[null], 
+Vulpix [Fire] 0.61 m Debilidades: [Water, Ground, Rock] Evoluciones[[038 Ninetales]], 
+Ninetales [Fire] 1.09 m Debilidades: [Water, Ground, Rock] Evoluciones[null], 
+Growlithe [Fire] 0.71 m Debilidades: [Water, Ground, Rock] Evoluciones[[059 Arcanine]], 
+Arcanine [Fire] 1.91 m Debilidades: [Water, Ground, Rock] Evoluciones[null], 
+Ponyta [Fire] 0.99 m Debilidades: [Water, Ground, Rock] Evoluciones[[078 Rapidash]], 
+Rapidash [Fire] 1.70 m Debilidades: [Water, Ground, Rock] Evoluciones[null], 
+Magmar [Fire] 1.30 m Debilidades: [Water, Ground, Rock] Evoluciones[null], 
+Flareon [Fire] 0.89 m Debilidades: [Water, Ground, Rock] Evoluciones[null], 
+Moltres [Fire, Flying] 2.01 m Debilidades: [Water, Electric, Rock] Evoluciones[null]]
+
+============= BUSCAR DEBILIDADES ============
+
+[
+Charmander [Fire] 0.61 m Debilidades: [Water, Ground, Rock] Evoluciones[[005 Charmeleon, 006 Charizard]], 
+Charmeleon [Fire] 1.09 m Debilidades: [Water, Ground, Rock] Evoluciones[[006 Charizard]], 
+Charizard [Fire, Flying] 1.70 m Debilidades: [Water, Electric, Rock] Evoluciones[null], 
+Squirtle [Water] 0.51 m Debilidades: [Electric, Grass] Evoluciones[[008 Wartortle, 009 Blastoise]], 
+Wartortle [Water] 0.99 m Debilidades: [Electric, Grass] Evoluciones[[009 Blastoise]], 
+Blastoise [Water] 1.60 m Debilidades: [Electric, Grass] Evoluciones[null], 
+Butterfree [Bug, Flying] 1.09 m Debilidades: [Fire, Electric, Ice, Flying, Rock] Evoluciones[null], 
+Pidgey [Normal, Flying] 0.30 m Debilidades: [Electric, Rock] Evoluciones[[017 Pidgeotto, 018 Pidgeot]], 
+Pidgeotto [Normal, Flying] 1.09 m Debilidades: [Electric, Rock] Evoluciones[[018 Pidgeot]], 
+Pidgeot [Normal, Flying] 1.50 m Debilidades: [Electric, Rock] Evoluciones[null], 
+Spearow [Normal, Flying] 0.30 m Debilidades: [Electric, Rock] Evoluciones[[022 Fearow]], 
+Fearow [Normal, Flying] 1.19 m Debilidades: [Electric, Rock] Evoluciones[null], 
+Sandshrew [Ground] 0.61 m Debilidades: [Water, Grass, Ice] Evoluciones[[028 Sandslash]], 
+Sandslash [Ground] 0.99 m Debilidades: [Water, Grass, Ice] Evoluciones[null], 
+Nidoqueen [Poison, Ground] 1.30 m Debilidades: [Water, Ice, Ground, Psychic] Evoluciones[null], 
+Nidoking [Poison, Ground] 1.40 m Debilidades: [Water, Ice, Ground, Psychic] Evoluciones[null], 
+Vulpix [Fire] 0.61 m Debilidades: [Water, Ground, Rock] Evoluciones[[038 Ninetales]], 
+Ninetales [Fire] 1.09 m Debilidades: [Water, Ground, Rock] Evoluciones[null], 
+Zubat [Poison, Flying] 0.79 m Debilidades: [Electric, Ice, Psychic, Rock] Evoluciones[[042 Golbat]], 
+Golbat [Poison, Flying] 1.60 m Debilidades: [Electric, Ice, Psychic, Rock] Evoluciones[null], 
+Diglett [Ground] 0.20 m Debilidades: [Water, Grass, Ice] Evoluciones[[051 Dugtrio]], 
+Dugtrio [Ground] 0.71 m Debilidades: [Water, Grass, Ice] Evoluciones[null], 
+Psyduck [Water] 0.79 m Debilidades: [Electric, Grass] Evoluciones[[055 Golduck]], 
+Golduck [Water] 1.70 m Debilidades: [Electric, Grass] Evoluciones[null], 
+Growlithe [Fire] 0.71 m Debilidades: [Water, Ground, Rock] Evoluciones[[059 Arcanine]], 
+Arcanine [Fire] 1.91 m Debilidades: [Water, Ground, Rock] Evoluciones[null], 
+Poliwag [Water] 0.61 m Debilidades: [Electric, Grass] Evoluciones[[061 Poliwhirl, 062 Poliwrath]], 
+Poliwhirl [Water] 0.99 m Debilidades: [Electric, Grass] Evoluciones[[062 Poliwrath]], 
+Poliwrath [Water, Fighting] 1.30 m Debilidades: [Electric, Grass, Flying, Psychic, Fairy] Evoluciones[null], 
+Tentacool [Water, Poison] 0.89 m Debilidades: [Electric, Ground, Psychic] Evoluciones[[073 Tentacruel]], 
+Tentacruel [Water, Poison] 1.60 m Debilidades: [Electric, Ground, Psychic] Evoluciones[null], 
+Geodude [Rock, Ground] 0.41 m Debilidades: [Water, Grass, Ice, Fighting, Ground, Steel] Evoluciones[[075 Graveler, 076 Golem]], 
+Graveler [Rock, Ground] 0.99 m Debilidades: [Water, Grass, Ice, Fighting, Ground, Steel] Evoluciones[[076 Golem]], 
+Golem [Rock, Ground] 1.40 m Debilidades: [Water, Grass, Ice, Fighting, Ground, Steel] Evoluciones[null], 
+Ponyta [Fire] 0.99 m Debilidades: [Water, Ground, Rock] Evoluciones[[078 Rapidash]], 
+Rapidash [Fire] 1.70 m Debilidades: [Water, Ground, Rock] Evoluciones[null], 
+Slowpoke [Water, Psychic] 1.19 m Debilidades: [Electric, Grass, Bug, Ghost, Dark] Evoluciones[[080 Slowbro]], 
+Slowbro [Water, Psychic] 1.60 m Debilidades: [Electric, Grass, Bug, Ghost, Dark] Evoluciones[null], 
+Magnemite [Electric] 0.30 m Debilidades: [Fire, Water, Ground] Evoluciones[[082 Magneton]], 
+Magneton [Electric] 0.99 m Debilidades: [Fire, Water, Ground] Evoluciones[null], 
+Farfetch'd [Normal, Flying] 0.79 m Debilidades: [Electric, Rock] Evoluciones[null], 
+Doduo [Normal, Flying] 1.40 m Debilidades: [Electric, Rock] Evoluciones[[085 Dodrio]], 
+Dodrio [Normal, Flying] 1.80 m Debilidades: [Electric, Rock] Evoluciones[null], 
+Seel [Water] 1.09 m Debilidades: [Electric, Grass] Evoluciones[[087 Dewgong]], 
+Dewgong [Water, Ice] 1.70 m Debilidades: [Electric, Grass, Fighting, Rock] Evoluciones[null], 
+Shellder [Water] 0.30 m Debilidades: [Electric, Grass] Evoluciones[[091 Cloyster]], 
+Cloyster [Water, Ice] 1.50 m Debilidades: [Electric, Grass, Fighting, Rock] Evoluciones[null], 
+Onix [Rock, Ground] 8.79 m Debilidades: [Water, Grass, Ice, Fighting, Ground, Steel] Evoluciones[null], 
+Krabby [Water] 0.41 m Debilidades: [Electric, Grass] Evoluciones[[099 Kingler]], 
+Kingler [Water] 1.30 m Debilidades: [Electric, Grass] Evoluciones[null], 
+Cubone [Ground] 0.41 m Debilidades: [Water, Grass, Ice] Evoluciones[[105 Marowak]], 
+Marowak [Ground] 0.99 m Debilidades: [Water, Grass, Ice] Evoluciones[null], 
+Rhyhorn [Ground, Rock] 0.99 m Debilidades: [Water, Grass, Ice, Fighting, Ground, Steel] Evoluciones[[112 Rhydon]], 
+Rhydon [Ground, Rock] 1.91 m Debilidades: [Water, Grass, Ice, Fighting, Ground, Steel] Evoluciones[null], 
+Horsea [Water] 0.41 m Debilidades: [Electric, Grass] Evoluciones[[117 Seadra]], 
+Seadra [Water] 1.19 m Debilidades: [Electric, Grass] Evoluciones[null], 
+Goldeen [Water] 0.61 m Debilidades: [Electric, Grass] Evoluciones[[119 Seaking]], 
+Seaking [Water] 1.30 m Debilidades: [Electric, Grass] Evoluciones[null], 
+Staryu [Water] 0.79 m Debilidades: [Electric, Grass] Evoluciones[[121 Starmie]], 
+Starmie [Water, Psychic] 1.09 m Debilidades: [Electric, Grass, Bug, Ghost, Dark] Evoluciones[null], 
+Scyther [Bug, Flying] 1.50 m Debilidades: [Fire, Electric, Ice, Flying, Rock] Evoluciones[null], 
+Magmar [Fire] 1.30 m Debilidades: [Water, Ground, Rock] Evoluciones[null], 
+Magikarp [Water] 0.89 m Debilidades: [Electric, Grass] Evoluciones[[130 Gyarados]], 
+Gyarados [Water, Flying] 6.50 m Debilidades: [Electric, Rock] Evoluciones[null], 
+Lapras [Water, Ice] 2.49 m Debilidades: [Electric, Grass, Fighting, Rock] Evoluciones[null], 
+Vaporeon [Water] 0.99 m Debilidades: [Electric, Grass] Evoluciones[null], 
+Flareon [Fire] 0.89 m Debilidades: [Water, Ground, Rock] Evoluciones[null], 
+Omanyte [Rock, Water] 0.41 m Debilidades: [Electric, Grass, Fighting, Ground] Evoluciones[[139 Omastar]], 
+Omastar [Rock, Water] 0.99 m Debilidades: [Electric, Grass, Fighting, Ground] Evoluciones[null], 
+Kabuto [Rock, Water] 0.51 m Debilidades: [Electric, Grass, Fighting, Ground] Evoluciones[[141 Kabutops]], 
+Kabutops [Rock, Water] 1.30 m Debilidades: [Electric, Grass, Fighting, Ground] Evoluciones[null], 
+Aerodactyl [Rock, Flying] 1.80 m Debilidades: [Water, Electric, Ice, Rock, Steel] Evoluciones[null], 
+Articuno [Ice, Flying] 1.70 m Debilidades: [Fire, Electric, Rock, Steel] Evoluciones[null], 
+Moltres [Fire, Flying] 2.01 m Debilidades: [Water, Electric, Rock] Evoluciones[null]]
+
+=========== POKEMON CON MAS DEBILIDADES ===========
+
+
+Exeggcute [Grass, Psychic] 0.41 m Debilidades: [Fire, Ice, Poison, Flying, Bug, Ghost, Dark] Evoluciones[[103 Exeggutor]]
+
+============ POKEMON MAS ALTO =============
+
+
+Onix [Rock, Ground] 8.79 m Debilidades: [Water, Grass, Ice, Fighting, Ground, Steel] Evoluciones[null]
