@@ -1,0 +1,107 @@
+======================== VUELTA A MALAGA  ========================
+
+
+====== CICLISTAS PARTICIPANTES EN LA CARRERA ======
+
+[
+ Chris Froome TEIN 69 Gbr, 
+ Egan Bernal TEIN 60 Col, 
+ Geraint Thomas TEIN 71 Gbr, 
+ Richard Carapaz TEIN 62 Ecu, 
+ Michal Kwiatkowski TEIN 73 Pol, 
+ Gianni Moscon TEIN 68 Ita, 
+ Luke Rowe TEIN 73 Gbr, 
+ Tao Geoghegan Hart TEIN 63 Gbr, 
+ Julian Alaphilippe DEQU 61 Fra, 
+ Mark Cavendish DEQU 70 Gbr, 
+ Remco Evenepoel DEQU 64 Bel, 
+ Zdenek Stybar DEQU 75 Cze, 
+ Kasper Asgreen DEQU 76 Dnk, 
+ Fabio Jakobsen DEQU 68 Nld, 
+ Yves Lampaert DEQU 72 Bel, 
+ Bob Jungels DEQU 70 Lux, 
+ Peter Sagan BOHA 73 Svk, 
+ Emmanuel Buchmann BOHA 63 Ger, 
+ Lennard Kämna BOHA 69 Ger, 
+ Emanuel Buchmann BOHA 67 Ger, 
+ Felix Großschartner BOHA 65 Aut, 
+ Wilco Kelderman BOHA 70 Ned, 
+ Giovanni Aleotti BOHA 65 Ita, 
+ Maximilian Schachmann BOHA 68 Ger, 
+ Ben O'Connor AGLA 64 Aus, 
+ Aurélien Paret-Peintre AGLA 62 Fra, 
+ Bob Jungels AGLA 70 Lux, 
+ Clement Champoussin AGLA 63 Fra, 
+ Stan Dewulf AGLA 68 Bel, 
+ Caleb Ewan LOSO 65 Aus, 
+ John Degenkolb LOSO 78 Ger, 
+ Philippe Gilbert LOSO 70 Bel, 
+ Thomas De Gendt LOSO 67 Bel, 
+ Tim Wellens LOSO 64 Bel, 
+ Rigoberto Uran EFED 62 Col, 
+ Michael Woods EFED 60 Can, 
+ Magnus Cort EFED 69 Den, 
+ Sergio Higuita EFED 59 Col, 
+ Lachlan Morton EFED 66 Aus]
+
+====== CLASIFICACION FINAL ======
+
+
+1 - Chris Froome(TEIN): 50
+10 - Mark Cavendish(DEQU): 51
+35 - Rigoberto Uran(EFED): 53
+7 - Luke Rowe(TEIN): 57
+16 - Bob Jungels(DEQU): 60
+21 - Felix Großschartner(BOHA): 60
+28 - Clement Champoussin(AGLA): 62
+3 - Geraint Thomas(TEIN): 63
+29 - Stan Dewulf(AGLA): 63
+9 - Julian Alaphilippe(DEQU): 65
+18 - Emmanuel Buchmann(BOHA): 65
+12 - Zdenek Stybar(DEQU): 66
+23 - Giovanni Aleotti(BOHA): 66
+5 - Michal Kwiatkowski(TEIN): 67
+19 - Lennard Kämna(BOHA): 67
+33 - Thomas De Gendt(LOSO): 68
+34 - Tim Wellens(LOSO): 68
+15 - Yves Lampaert(DEQU): 69
+17 - Peter Sagan(BOHA): 69
+38 - Sergio Higuita(EFED): 69
+11 - Remco Evenepoel(DEQU): 71
+4 - Richard Carapaz(TEIN): 72
+20 - Emanuel Buchmann(BOHA): 74
+22 - Wilco Kelderman(BOHA): 74
+13 - Kasper Asgreen(DEQU): 76
+2 - Egan Bernal(TEIN): 77
+6 - Gianni Moscon(TEIN): 77
+8 - Tao Geoghegan Hart(TEIN): 77
+14 - Fabio Jakobsen(DEQU): 77
+24 - Maximilian Schachmann(BOHA): 77
+25 - Ben O'Connor(AGLA): 77
+26 - Aurélien Paret-Peintre(AGLA): 77
+27 - Bob Jungels(AGLA): 77
+30 - Caleb Ewan(LOSO): 77
+31 - John Degenkolb(LOSO): 77
+32 - Philippe Gilbert(LOSO): 77
+36 - Michael Woods(EFED): 77
+37 - Magnus Cort(EFED): 77
+39 - Lachlan Morton(EFED): 77
+
+============ PODIUM ============ 
+Puesto 1: 1 - Chris Froome(TEIN): 50
+Puesto 2: 10 - Mark Cavendish(DEQU): 51
+Puesto 3: 35 - Rigoberto Uran(EFED): 53
+
+
+====== CLASIFICACION POR EQUIPOS ======
+TEIN 170
+DEQU 176
+BOHA 191
+EFED 199
+AGLA 202
+LOSO 213
+
+
+====== POSICION DEL CORREDOR Wilco Kelderman(BOHA) Dorsal: 22
+
+QUEDO EN EL LUGAR NUMERO 24 ||22 - Wilco Kelderman(BOHA): 74

@@ -20,7 +20,7 @@ public class Equipo {
     @Override
     public String toString() {
 
-        return "\n"+this.codigo + " "+ this.nombre + " "+ this.nacionalidad + " "+this.presupuesto;  
+        return "\n"+this.codigo;  
     }
 
 

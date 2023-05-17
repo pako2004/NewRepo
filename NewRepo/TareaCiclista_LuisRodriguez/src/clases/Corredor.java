@@ -24,6 +24,7 @@ public class Corredor extends Ciclista implements Comparator<Corredor>{
         this.peso = c.getPeso();
         this.pais = c.getPais();
         this.dorsal = dorsal;
+        this.tiempo = 0;
     }
 
 
@@ -34,7 +35,7 @@ public class Corredor extends Ciclista implements Comparator<Corredor>{
     public int compare(Corredor arg0, Corredor arg1) {
 
         
-        return arg1.getTiempo()-arg0.getTiempo();
+        return arg0.getTiempo()-arg1.getTiempo();
     }
 
 

@@ -3,7 +3,9 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.Reader;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -68,6 +70,25 @@ public static List<Equipo> leerEquiposCsv(String pathfile)
 
     return equipos;
 
+}
+
+public static Map<Integer,Integer> leerEtapa(String pathfile)
+{
+    Map<Integer, Integer> etapa = new HashMap<>();
+
+    File file = new File(pathfile); 
+
+    ObjectMapper mapper = new ObjectMapper();
+
+    try  
+    {
+
+        etapa = mapper.readValue(file, new TypeReference<Map<Integer, Integer>>() {});
+
+    } catch (Exception e)
+    {    System.out.println(e.getMessage());}
+
+    return etapa;
 }
 
 
