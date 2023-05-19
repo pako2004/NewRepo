@@ -1,0 +1,11 @@
+==== FACTURAS CLIENTE =====
+
+ Cliente: Juan Perez Total gastado: 182.20000000000002
+ Cliente: María García Total gastado: 0.0
+ Cliente: Pedro López Total gastado: 0.0
+ Cliente: Ana Martínez Total gastado: 0.0
+ Cliente: Javier Fernández Total gastado: 0.0
+ Cliente: Maria Rodriguez Total gastado: 174.97
+ Cliente: Ana Martinez Total gastado: 75.97
+ Cliente: Pablo Gomez Total gastado: 37.98
+ Cliente: Sofia Fernandez Total gastado: 45.97
