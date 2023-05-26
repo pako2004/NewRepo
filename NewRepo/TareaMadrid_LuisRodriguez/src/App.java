@@ -1,9 +1,7 @@
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
-import javax.swing.event.ListDataEvent;
-
-import org.w3c.dom.events.Event;
 
 public class App {
 
@@ -31,38 +29,104 @@ Crea un fichero principal donde pruebes estos métodos y pruebes además si ambo
 
  */
 
- static Eventos  eventos = JsonUtils.leerFicheroJson("src/recursos/206974-0-agenda-eventos-culturales-100.json");
-
+static Eventos  eventosJSON = JsonUtils.leerFicheroJson("src/recursos/206974-0-agenda-eventos-culturales-100.json");
+static Eventos eventosCSV = CsvUtils.leerCsv("src/recursos/206974-0-agenda-eventos-culturales-100.csv");
 
     public static void main(String[] args) throws Exception 
     {
-        for (int i = 0; i < eventos.getListaEventos().size(); i++) 
+        for (int i = 0; i < eventosJSON.getListaEventos().size(); i++) 
         {
                 
         }
-        System.out.println(eventos);
+        System.out.println(eventosJSON);
+        
+        //CsvUtils.leerCsv("src/recursos/206974-0-agenda-eventos-culturales-100.csv");
 
+        //HashMap<String, Integer> eventosTotalPorCod = eventosTotalPorCodPostal(eventosJSON);
+
+        List<EventoMadrid> eventosGratisPorCod = eventoPorCodPostal("28035", eventosJSON);
+        System.out.println(eventosGratisPorCod);
+        
     }   
 
-    // private static List<EventoMadrid> eventosGratuitos()
-    // {   
-    //     List<EventoMadrid> listaGratis = new ArrayList<>();
-    //     //Copio la variable para un codigo mas legible
-    //     List<EventoMadrid> listaEventos= eventos.getListaEventos(); 
+    private static List<EventoMadrid> eventosGratuitos(Eventos ficherEventos)
+    {   
+        List<EventoMadrid> listaGratis = new ArrayList<>();
+        //Copio la variable para un codigo mas legible
+        List<EventoMadrid> listaEventos= ficherEventos.getListaEventos(); 
 
         
-    //     for (int i = 0; i < listaEventos.size(); i++) 
-    //     {
+        for (int i = 0; i < listaEventos.size(); i++) 
+        {
             
-    //         if(listaEventos.get(i).getFree().equals(1))
-    //         {
-    //             listaGratis.add(listaEventos.get(i));
-    //         }
+            if(listaEventos.get(i).getFree().equals(1))
+            {
+                listaGratis.add(listaEventos.get(i));
+            }
 
-    //     }        
+        }        
 
-    //     return listaGratis;
-    // }
+        return listaGratis;
+    }
+
+ 
+
+    private static List<EventoMadrid> eventoPorCodPostal(String codigoBuscado, Eventos ficherEventos)
+    {
+        List<EventoMadrid> eventosBuscado = new ArrayList<>();
+
+        for (int i = 0; i < ficherEventos.getListaEventos().size(); i++) 
+        {   
+
+            if(ficherEventos.getListaEventos().get(i).getCodPostal() != null &&ficherEventos.getListaEventos().get(i).getCodPostal().equals(codigoBuscado))
+            {
+                eventosBuscado.add(ficherEventos.getListaEventos().get(i));
+            }    
+        }
+        return eventosBuscado;
+
+    }
+
+   
+    private static HashMap<String, Integer> eventosTotalPorCodPostal(Eventos ficheroEventos)
+    {
+
+        HashMap<String, Integer> eventosTotal = new HashMap<>();
+
+
+        for (int index = 0; index < ficheroEventos.getListaEventos().size(); index++) 
+        {
+            
+            try {
+                if(eventosTotal.containsKey(ficheroEventos.getListaEventos().get(index).getCodPostal()))
+                {      
+                    if(ficheroEventos.getListaEventos().get(index).getCodPostal() != null)
+                    {
+                        Integer auxInteger = eventosTotal.get(ficheroEventos.getListaEventos().get(index).getCodPostal());
+                        auxInteger++;
+                        eventosTotal.replace(ficheroEventos.getListaEventos().get(index).getCodPostal(), auxInteger);
+
+                    }else{
+                        Integer auxInteger = eventosTotal.get("Sin Codigo");
+                        auxInteger++;
+                        eventosTotal.replace("Sin codigo", auxInteger); }
+                }else{
+                    if(ficheroEventos.getListaEventos().get(index).getCodPostal() != null)
+                    {
+                         eventosTotal.put(ficheroEventos.getListaEventos().get(index).getCodPostal(), 1);     
+                    }else{
+                        eventosTotal.put("Sin codigo", 1);
+                    }
+
+                  
+                }
+            } catch (Exception e) {
+                
+                System.out.println("EEEEERRRRRRORRR "+ficheroEventos.getListaEventos().get(index));
+            }
+        }
+        return eventosTotal;
+    }
 
 
 }
