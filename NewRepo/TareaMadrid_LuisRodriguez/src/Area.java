@@ -1,18 +1,18 @@
-import javax.management.loading.PrivateClassLoader;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class Ubicacion 
+public class Area 
 {   
     @JsonProperty("postal-code")
     private String postalCode;
 
+    @JsonProperty("postal-code")
     public String getPostalCode() {
         return postalCode;
     }
-
+    @JsonProperty("postal-code")
     public void setPostalCode(String postalCode) {
         this.postalCode = postalCode;
     }

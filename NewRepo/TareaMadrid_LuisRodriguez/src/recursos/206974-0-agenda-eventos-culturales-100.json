@@ -108,21 +108,21 @@
 			"@id": ""
 		},
 								
-			"relation": {
-				"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5983597-parque-olof-palme.json"
+		"relation": {
+			"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5983597-parque-olof-palme.json"
+		},
+		"address": {
+			"district": {
+			"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Usera"
 			},
-				"address": {
-					"district": {
-						"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Usera"
-					},
 					
-						"area": {
-							"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Usera/Barrio/Zofio",
-							"locality": "MADRID",		
-							"postal-code": "28026",
-							"street-address": "CALLE CERECINOS 1"
-					}
-				},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Usera/Barrio/Zofio",
+				"locality": "MADRID",		
+				"postal-code": "28026",
+				"street-address": "CALLE CERECINOS 1"
+			}
+		},
 			"location": {
 				"latitude": 40.38439900273861,
 				"longitude": -3.7129519968429445

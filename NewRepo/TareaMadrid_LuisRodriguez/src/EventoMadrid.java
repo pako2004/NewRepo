@@ -1,39 +1,3 @@
-
-.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
@@ -49,22 +13,26 @@ public class EventoMadrid {
 
     private String id;
     private String title;
-    private Ubicacion area;
+    private Address address;
     private String codPostal;
     private String audience;
 
 
 
-    public static void actualizarPostal(Eventos eventos)
-    {
-        for (int i = 0; i < eventos.getListaEventos().size(); i++) 
+    public void actualizarPostal()
+    {   
+        try 
         {
-            //Actualizo todos los codigos postales de los eventos
+            if(this.address.getArea() != null && this.address.getArea().getPostalCode() != null )
+            {
+                this.codPostal = this.address.getArea().getPostalCode();
+            }
             
-            eventos.getListaEventos().get(i)
-            .setPostalCode(eventos.getListaEventos().get(i).getArea().getPostalCode());
-
+        } catch (Exception e) 
+        {
+            
         }
+    
     }
 
     @Override
@@ -100,15 +68,7 @@ public class EventoMadrid {
     public void setTitle(String title) {
         this.title = title;
     }
-    @JsonProperty("postal-code")
-    public String getPostalCode() {
-        return codPostal;
-    }
-
-    @JsonProperty("postal-code")
-    public void setPostalCode(String codPostal) {
-        this.codPostal = codPostal;
-    }
+  
     public String getAudience() {
         return audience;
     }
@@ -116,13 +76,6 @@ public class EventoMadrid {
         this.audience = audience;
     }
 
-    public Ubicacion getArea() {
-        return area;
-    }
-
-    public void setArea(Ubicacion area) {
-        this.area = area;
-    }
 
     public String getCodPostal() {
         return codPostal;
@@ -132,4 +85,12 @@ public class EventoMadrid {
         this.codPostal = codPostal;
     }
     
+    public Address getAddress() {
+        return address;
+    }
+
+    public void setAddress(Address address) {
+        this.address = address;
+    }
+
 }
